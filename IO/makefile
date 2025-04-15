@@ -1,6 +1,6 @@
-CXX=g++
+CXX:=g++
 
-CXXFLAGS=-Wall  -std=c++11
+CXXFLAGS:=-Wall  -std=c++11
 
 dup:dup.cpp
 	-${CXX} $^ ${CXXFLAGS} -o $@
